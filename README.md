@@ -45,4 +45,13 @@ cli-muj timetable
 - Encrypt config: Use AES-256 for password storage (or store in system keyring).
 - Add ```cli-muj logout``` to remove saved credentials.
 - Plan for a future OAuth/Token-based system for portal access (if MUJ allows).
+- Add checksum or hash validation to detect tampered files
 
+---
+## Commands to implement
+
+- cli-muj setup – Save credentials
+- cli-muj attendance – Read JSON & print formatted table
+- cli-muj marks – Same as attendance but with marks
+- cli-muj timetable --today or --week – Parse system date and print relevant day
+- cli-muj logout – Deletes config
